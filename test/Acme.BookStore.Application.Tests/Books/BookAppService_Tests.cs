@@ -59,7 +59,7 @@ namespace Acme.BookStore.Books
                         new CreateUpdateBookDto
                         {
                             Name = "",
-                            Price = 10,
+                            Price = 10, 
                             PublishDate = DateTime.Now,
                             Type = BookType.ScienceFiction
                         }
