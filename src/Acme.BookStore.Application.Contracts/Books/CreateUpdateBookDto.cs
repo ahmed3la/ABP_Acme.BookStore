@@ -11,7 +11,7 @@ namespace Acme.BookStore.Books
         [StringLength(128)]
         public string Name { get; set; }
         [Required]
-        public BookType Type { get; set; } = BookType.Undefined;
+        public Class1 Type { get; set; } = Class1.Undefined;
         [Required]
         [DataType(DataType.Date)]
         public DateTime PublishDate { get; set; } = DateTime.Now;

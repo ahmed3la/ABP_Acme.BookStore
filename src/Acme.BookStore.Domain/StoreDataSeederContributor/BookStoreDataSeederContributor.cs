@@ -25,7 +25,7 @@ namespace Acme.BookStore
                     new Book
                     {
                         Name = "1984",
-                        Type = BookType.Dystopia,
+                        Type = Class1.Dystopia,
                         PublishDate = new DateTime(1949, 6, 8),
                         Price = 19.84f
                     },
@@ -36,7 +36,7 @@ namespace Acme.BookStore
                     new Book
                     {
                         Name = "The Hitchhiker's Guide to the Galaxy",
-                        Type = BookType.ScienceFiction,
+                        Type = Class1.ScienceFiction,
                         PublishDate = new DateTime(1995, 9, 27),
                         Price = 42.0f
                     },

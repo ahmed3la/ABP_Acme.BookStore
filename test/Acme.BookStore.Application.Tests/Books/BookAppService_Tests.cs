@@ -42,7 +42,7 @@ namespace Acme.BookStore.Books
                     Name = "New Test Book 42",
                     Price = 10,
                     PublishDate = DateTime.Now,
-                    Type = BookType.ScienceFiction
+                    Type = Class1.ScienceFiction
                 }
                 );
             //Assert
@@ -61,7 +61,7 @@ namespace Acme.BookStore.Books
                             Name = "",
                             Price = 10, 
                             PublishDate = DateTime.Now,
-                            Type = BookType.ScienceFiction
+                            Type = Class1.ScienceFiction
                         }
                     );
             });
